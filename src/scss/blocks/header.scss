@@ -1,0 +1,19 @@
+.header {
+  margin-top: 6em;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0.1em;
+  text-align: center;
+  width: 95%;
+
+  &__title {
+    color: var(--dark-grayish-blue);
+  }
+  &__desc {
+    line-height: 1.5em;
+    color: var(--grayish-blue);
+    margin-left: auto;
+    margin-right: auto;
+    width: 98%;
+  }
+}

@@ -1,0 +1,7 @@
+.sponsors {
+  align-items: center;
+  display: grid;
+  grid-gap: 2em;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  margin-top: 6em;
+}

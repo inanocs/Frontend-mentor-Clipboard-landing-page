@@ -1,0 +1,17 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-image: url("../assets/img/bg-header-mobile.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: top center;
+  font-family: "Bai Jamjuree", sans-serif;
+  font-size: 18px;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}

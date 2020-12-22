@@ -1,0 +1,17 @@
+//Base
+@import "./base/normalize.scss";
+@import "./base/base.scss";
+
+//Variables
+@import "./config/variables.scss";
+
+//Blocks
+@import "./blocks/header.scss";
+@import "./blocks/download.scss";
+@import "./blocks/button.scss";
+@import "./blocks/section.scss";
+@import "./blocks/specs.scss";
+@import "./blocks/cards.scss";
+@import "./blocks/sponsors.scss";
+@import "./blocks/clipboard.scss";
+@import "./blocks/footer.scss";

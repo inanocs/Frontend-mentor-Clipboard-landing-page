@@ -1,0 +1,31 @@
+.footer {
+  background-color: rgb(245, 246, 248);
+  margin-top: 8em;
+  padding: 2em;
+  text-align: center;
+
+  &__logo-container {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1em;
+    width: 20%;
+  }
+
+  &-list {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    &--row {
+      flex-direction: row;
+    }
+    &__link {
+      color: var(--dark-grayish-blue);
+      font-weight: 700;
+      display: block;
+      padding: 1em;
+      text-decoration: none;
+    }
+  }
+}

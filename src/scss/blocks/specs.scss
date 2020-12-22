@@ -1,0 +1,19 @@
+.specs {
+  display: grid;
+  margin-top: 3.5em;
+
+  &__title {
+    color: var(--dark-grayish-blue);
+  }
+
+  &__desc {
+    color: var(--grayish-blue);
+    line-height: 1.5em;
+  }
+
+  &-cards {
+    &__card {
+      margin-top: 2.5em;
+    }
+  }
+}

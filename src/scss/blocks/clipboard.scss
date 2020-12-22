@@ -1,0 +1,15 @@
+.clipboard {
+  margin-top: 4em;
+
+  &__title {
+    font-size: 1.7em;
+    color: var(--dark-grayish-blue);
+  }
+  &__desc {
+    line-height: 1.5em;
+    color: var(--grayish-blue);
+    margin-left: auto;
+    margin-right: auto;
+    width: 98%;
+  }
+}
