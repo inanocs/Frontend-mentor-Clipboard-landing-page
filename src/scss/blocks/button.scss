@@ -8,9 +8,13 @@
   margin-top: 1em;
   padding: 1em;
   text-align: center;
+  flex: 0.3;
 
   &--cyan {
     background-color: var(--strong-cyan);
+    @media screen and(min-width:1024px) {
+      margin-right: 0.8em;
+    }
   }
   &--blue {
     background-color: var(--light-blue);

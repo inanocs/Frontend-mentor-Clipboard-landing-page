@@ -1,6 +1,8 @@
 .clipboard {
+  margin-left: auto;
+  margin-right: auto;
   margin-top: 4em;
-
+  max-width: 1000px;
   &__title {
     font-size: 1.7em;
     color: var(--dark-grayish-blue);

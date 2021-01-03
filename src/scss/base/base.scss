@@ -8,6 +8,10 @@ body {
   background-position: top center;
   font-family: "Bai Jamjuree", sans-serif;
   font-size: 18px;
+
+  @media screen and(min-width: 1024px) {
+    background-image: url("../assets/img/bg-header-desktop.png");
+  }
 }
 
 ul {

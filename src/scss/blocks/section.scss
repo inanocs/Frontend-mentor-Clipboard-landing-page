@@ -12,4 +12,14 @@
     line-height: 1.5em;
     color: var(--grayish-blue);
   }
+  @media screen and (min-width: 1024px) {
+    &--desk-100 {
+      max-width: 100%;
+      width: 100%;
+    }
+
+    &:nth-child(3) {
+      margin-top: 13em;
+    }
+  }
 }
